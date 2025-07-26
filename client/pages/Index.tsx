@@ -98,7 +98,7 @@ export default function Index() {
                 </p>
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
                   <p className="text-sm text-yellow-800">
-                    <strong>導入実績：</strong>全国500+施設で導入済み（教育機関60%、オフィス30%、その他10%）
+                    <strong>導入実績：</strong>全国500+施設で導入済み（教育機関60%、オフィス30%��その他10%）
                   </p>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function Index() {
                   size="lg"
                   className="border-brand-primary text-brand-primary hover:bg-brand-light px-8 py-4 text-lg"
                 >
-                  ROI計算���DL
+                  ROI計算書DL
                 </Button>
               </div>
 
