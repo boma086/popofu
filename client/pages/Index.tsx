@@ -415,7 +415,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              導入から運用まで���全サポート
+              導入から運用まで万全サポート
             </h2>
             <p className="text-xl text-gray-600">
               日本市場に特化した充実のサポート体制
@@ -449,7 +449,7 @@ export default function Index() {
               </div>
               <h3 className="font-bold text-gray-900 mb-2">24時間監視</h3>
               <p className="text-sm text-gray-600">
-                IoT技術により24時間遠隔監視。トラブル発生前に予防対応いたします。
+                IoT技術により24時間遠隔監視��トラブル発生前に予防対応いたします。
               </p>
             </Card>
 
@@ -488,7 +488,7 @@ export default function Index() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-brand-primary px-8 py-4 text-lg font-semibold"
+                className="border-2 border-white bg-white/10 text-white hover:bg-white hover:text-brand-primary px-8 py-4 text-lg font-semibold"
               >
                 ROI計算書ダウンロード
               </Button>
