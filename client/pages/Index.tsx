@@ -98,7 +98,8 @@ export default function Index() {
                 </p>
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
                   <p className="text-sm text-yellow-800">
-                    <strong>導入実績：</strong>全国500+施設で導入済み（教育機関60%、オフィス30%��その他10%）
+                    <strong>導入実績：</strong>
+                    全国500+施設で導入済み（教育機関60%、オフィス30%��その他10%）
                   </p>
                 </div>
               </div>
@@ -158,16 +159,20 @@ export default function Index() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               圧倒的な投資対効果（ROI）を実証
             </h2>
-            <p className="text-gray-600">導入企業の平均データに基づく効果測定</p>
+            <p className="text-gray-600">
+              導入企業の平均データに基づく効果測定
+            </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-6">
             <Card className="p-6 text-center bg-white shadow-lg">
               <div className="text-3xl font-bold text-green-600 mb-2">280%</div>
               <div className="text-sm text-gray-600">36ヶ月平均ROI</div>
             </Card>
             <Card className="p-6 text-center bg-white shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-2">800万円</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">
+                800万円
+              </div>
               <div className="text-sm text-gray-600">電源工事費削減額</div>
             </Card>
             <Card className="p-6 text-center bg-white shadow-lg">
@@ -192,7 +197,9 @@ export default function Index() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               各業界の専門ニーズに対応した３つのモデル
               <br />
-              <span className="text-brand-primary font-semibold">導入効果とコスト削減効果を最大化</span>
+              <span className="text-brand-primary font-semibold">
+                導入効果とコスト削減効果を最大化
+              </span>
             </p>
           </div>
 
@@ -200,7 +207,9 @@ export default function Index() {
             {/* mini Lite5 */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-brand-primary relative">
               <div className="absolute top-4 right-4">
-                <Badge className="bg-red-500 text-white text-xs">教育機関人気No.1</Badge>
+                <Badge className="bg-red-500 text-white text-xs">
+                  教育機関人気No.1
+                </Badge>
               </div>
               <CardContent className="p-8 text-center">
                 <div className="w-32 h-32 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
@@ -231,8 +240,12 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-blue-50 p-3 rounded-lg mb-4">
-                  <p className="text-sm text-blue-800 font-semibold">導入校平均ROI: 280%</p>
-                  <p className="text-xs text-blue-600">※36ヶ月使用時の投資回収率</p>
+                  <p className="text-sm text-blue-800 font-semibold">
+                    導入校平均ROI: 280%
+                  </p>
+                  <p className="text-xs text-blue-600">
+                    ※36ヶ月使用時の投資回収率
+                  </p>
                 </div>
                 <Button
                   variant="outline"
@@ -246,7 +259,9 @@ export default function Index() {
             {/* mini/Quad */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-brand-primary relative">
               <div className="absolute top-4 right-4">
-                <Badge className="bg-green-500 text-white text-xs">オフィス導入率No.1</Badge>
+                <Badge className="bg-green-500 text-white text-xs">
+                  オフィス導入率No.1
+                </Badge>
               </div>
               <CardContent className="p-8 text-center">
                 <div className="w-32 h-32 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
@@ -277,7 +292,9 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-green-50 p-3 rounded-lg mb-4">
-                  <p className="text-sm text-green-800 font-semibold">工事費削減額: 平均800万円</p>
+                  <p className="text-sm text-green-800 font-semibold">
+                    工事費削減額: 平均800万円
+                  </p>
                   <p className="text-xs text-green-600">※100名規模オフィス</p>
                 </div>
                 <Button
@@ -292,7 +309,9 @@ export default function Index() {
             {/* PoPoHu */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-brand-primary relative">
               <div className="absolute top-4 right-4">
-                <Badge className="bg-purple-500 text-white text-xs">防災備蓄推奨</Badge>
+                <Badge className="bg-purple-500 text-white text-xs">
+                  防災備蓄推奨
+                </Badge>
               </div>
               <CardContent className="p-8 text-center">
                 <div className="w-32 h-32 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
@@ -323,7 +342,9 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-purple-50 p-3 rounded-lg mb-4">
-                  <p className="text-sm text-purple-800 font-semibold">BCP対策効果: 災害時稼働率98%</p>
+                  <p className="text-sm text-purple-800 font-semibold">
+                    BCP対策効果: 災害時稼働率98%
+                  </p>
                   <p className="text-xs text-purple-600">※2023年災害対応実績</p>
                 </div>
                 <Button
@@ -342,17 +363,21 @@ export default function Index() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">お客様の声</h2>
-            <p className="text-xl text-gray-600">導入企業の担当者様からの評価</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              お客様の声
+            </h2>
+            <p className="text-xl text-gray-600">
+              導入企業の担当者様からの評価
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="p-6 bg-white">
               <div className="flex items-center mb-4">
-                <div className="flex text-yellow-400">
-                  {"★".repeat(5)}
-                </div>
-                <span className="ml-2 text-sm text-gray-600">東京都立○○高校</span>
+                <div className="flex text-yellow-400">{"★".repeat(5)}</div>
+                <span className="ml-2 text-sm text-gray-600">
+                  東京都立○○高校
+                </span>
               </div>
               <p className="text-gray-700 mb-4">
                 「工事費用ゼロでICT環境を整備できました。生徒たちの学習効率が格段に向上し、年間電気代も大幅に削減できています。」
@@ -362,9 +387,7 @@ export default function Index() {
 
             <Card className="p-6 bg-white">
               <div className="flex items-center mb-4">
-                <div className="flex text-yellow-400">
-                  {"★".repeat(5)}
-                </div>
+                <div className="flex text-yellow-400">{"★".repeat(5)}</div>
                 <span className="ml-2 text-sm text-gray-600">株式会社○○○</span>
               </div>
               <p className="text-gray-700 mb-4">
@@ -375,9 +398,7 @@ export default function Index() {
 
             <Card className="p-6 bg-white">
               <div className="flex items-center mb-4">
-                <div className="flex text-yellow-400">
-                  {"★".repeat(5)}
-                </div>
+                <div className="flex text-yellow-400">{"★".repeat(5)}</div>
                 <span className="ml-2 text-sm text-gray-600">○○市役所</span>
               </div>
               <p className="text-gray-700 mb-4">
@@ -393,8 +414,12 @@ export default function Index() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">導入から運用まで万全サポート</h2>
-            <p className="text-xl text-gray-600">日本市場に特化した充実のサポート体制</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              導入から運用まで万全サポート
+            </h2>
+            <p className="text-xl text-gray-600">
+              日本市場に特化した充実のサポート体制
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -449,18 +474,19 @@ export default function Index() {
               まずは無料相談からスタート
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              専門スタッフがお客様の課題をヒアリングし、<br />
+              専門スタッフがお客様の課題をヒアリングし、
+              <br />
               最適なソリューションをご提案いたします。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-white text-brand-primary hover:bg-gray-100 px-8 py-4 text-lg"
               >
                 無料相談・見積依頼
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg"
               >
@@ -493,37 +519,81 @@ export default function Index() {
                 電源工事不要で生産性向上を実現する次世代ポータブル電源
               </p>
             </div>
-            
+
             <div>
               <h4 className="font-semibold mb-4">製品・ソリューション</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">教育機関向け mini Lite5</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">オフィス向け mini/Quad</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">大規模施設向け PoPoHu</a></li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    教育機関向け mini Lite5
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    オフィス向け mini/Quad
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    大規模施設向け PoPoHu
+                  </a>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold mb-4">サポート</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">無料相談・見積依頼</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">導入事例・ROI計算書</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">技術サポート</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">製品保証・メンテナンス</a></li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    無料相談・見積依頼
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    導入事例・ROI計算書
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    技術サポート
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    製品保証・メンテナンス
+                  </a>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold mb-4">企業情報</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">会社概要</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">プライバシーポリシー</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">利用規約</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">お問い合わせ</a></li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    会社概要
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    プライバシーポリシー
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    利用規約
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition-colors">
+                    お問い合わせ
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
               © 2024 PoPoHu Portable Power Hub. All rights reserved.
