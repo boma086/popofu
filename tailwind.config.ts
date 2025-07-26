@@ -6,8 +6,8 @@ export default {
   prefix: "",
   theme: {
     fontFamily: {
-      'sans': ['Inter', 'Noto Sans JP', 'system-ui', 'sans-serif'],
-      'jp': ['Noto Sans JP', 'system-ui', 'sans-serif'],
+      sans: ["Inter", "Noto Sans JP", "system-ui", "sans-serif"],
+      jp: ["Noto Sans JP", "system-ui", "sans-serif"],
     },
     container: {
       center: true,
@@ -19,19 +19,19 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#00B4D8',
-          secondary: '#90E0EF',
-          accent: '#0077B6',
-          light: '#CAF0F8',
-          dark: '#03045E',
+          primary: "#00B4D8",
+          secondary: "#90E0EF",
+          accent: "#0077B6",
+          light: "#CAF0F8",
+          dark: "#03045E",
         },
         popohu: {
-          blue: '#00B4D8',
-          mint: '#7FDBCA',
-          orange: '#FF8C69',
-          purple: '#B19CD9',
-          yellow: '#FFD166',
-          gray: '#6C757D',
+          blue: "#00B4D8",
+          mint: "#7FDBCA",
+          orange: "#FF8C69",
+          purple: "#B19CD9",
+          yellow: "#FFD166",
+          gray: "#6C757D",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -106,5 +106,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require('@tailwindcss/typography')],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
