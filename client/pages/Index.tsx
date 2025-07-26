@@ -99,7 +99,7 @@ export default function Index() {
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
                   <p className="text-sm text-yellow-800">
                     <strong>導入実績：</strong>
-                    全国500+施設で導入済み（教育機関60%、オフィス30%��その他10%）
+                    全国500+施設で導入済み（教育機関60%、オフィス30%、その他10%）
                   </p>
                 </div>
               </div>
@@ -415,7 +415,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              導入から運用まで万全サポート
+              導入から運用まで���全サポート
             </h2>
             <p className="text-xl text-gray-600">
               日本市場に特化した充実のサポート体制
@@ -488,7 +488,7 @@ export default function Index() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg"
+                className="border-2 border-white text-white hover:bg-white hover:text-brand-primary px-8 py-4 text-lg font-semibold"
               >
                 ROI計算書ダウンロード
               </Button>
